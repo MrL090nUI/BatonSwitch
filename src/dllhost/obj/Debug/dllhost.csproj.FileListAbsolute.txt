@@ -1,0 +1,10 @@
+D:\Projects\VisualStudio\dllhost\bin\Debug\dllhost.exe.config
+D:\Projects\VisualStudio\dllhost\bin\Debug\dllhost.exe
+D:\Projects\VisualStudio\dllhost\bin\Debug\dllhost.pdb
+D:\Projects\VisualStudio\dllhost\obj\Debug\dllhost.csproj.AssemblyReference.cache
+D:\Projects\VisualStudio\dllhost\obj\Debug\dllhost.Form1.resources
+D:\Projects\VisualStudio\dllhost\obj\Debug\dllhost.Properties.Resources.resources
+D:\Projects\VisualStudio\dllhost\obj\Debug\dllhost.csproj.GenerateResource.cache
+D:\Projects\VisualStudio\dllhost\obj\Debug\dllhost.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\dllhost\obj\Debug\dllhost.exe
+D:\Projects\VisualStudio\dllhost\obj\Debug\dllhost.pdb

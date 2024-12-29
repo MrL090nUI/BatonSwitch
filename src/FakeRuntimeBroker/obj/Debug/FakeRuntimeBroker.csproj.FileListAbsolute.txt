@@ -1,0 +1,14 @@
+E:\Projects\VisualStudio\FakeRuntimeBroker\obj\Debug\FakeRuntimeBroker.csproj.AssemblyReference.cache
+E:\Projects\VisualStudio\FakeRuntimeBroker\obj\Debug\FakeRuntimeBroker.csproj.CoreCompileInputs.cache
+E:\Projects\VisualStudio\FakeRuntimeBroker\bin\Debug\RuntimeBroker.exe.config
+E:\Projects\VisualStudio\FakeRuntimeBroker\bin\Debug\RuntimeBroker.exe
+E:\Projects\VisualStudio\FakeRuntimeBroker\bin\Debug\RuntimeBroker.pdb
+E:\Projects\VisualStudio\FakeRuntimeBroker\obj\Debug\RuntimeBroker.exe
+E:\Projects\VisualStudio\FakeRuntimeBroker\obj\Debug\RuntimeBroker.pdb
+D:\Projects\VisualStudio\FakeRuntimeBroker\bin\Debug\RuntimeBroker.exe.config
+D:\Projects\VisualStudio\FakeRuntimeBroker\bin\Debug\RuntimeBroker.exe
+D:\Projects\VisualStudio\FakeRuntimeBroker\bin\Debug\RuntimeBroker.pdb
+D:\Projects\VisualStudio\FakeRuntimeBroker\obj\Debug\FakeRuntimeBroker.csproj.AssemblyReference.cache
+D:\Projects\VisualStudio\FakeRuntimeBroker\obj\Debug\FakeRuntimeBroker.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\FakeRuntimeBroker\obj\Debug\RuntimeBroker.exe
+D:\Projects\VisualStudio\FakeRuntimeBroker\obj\Debug\RuntimeBroker.pdb

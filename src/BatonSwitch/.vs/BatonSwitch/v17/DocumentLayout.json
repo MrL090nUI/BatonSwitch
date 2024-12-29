@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\VisualStudio\\BatonSwitch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18DB07FA-C3E3-4205-9B21-F412762F8213}|..\\BatonSwitch2\\BatonSwitch2.csproj|d:\\projects\\visualstudio\\batonswitch2\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BatonSwitch||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{215C26A8-DB8B-4977-A049-1BFB5EB4AFA4}|..\\FakeRuntimeBroker\\FakeRuntimeBroker.csproj|d:\\projects\\visualstudio\\fakeruntimebroker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF9604C-3AD0-455D-9991-D2A458F00630}|BatonSwitch.csproj|D:\\Projects\\VisualStudio\\BatonSwitch\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF9604C-3AD0-455D-9991-D2A458F00630}|BatonSwitch.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BatonSwitch2||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF9604C-3AD0-455D-9991-D2A458F00630}|BatonSwitch.csproj|d:\\projects\\visualstudio\\batonswitch\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{BBF9604C-3AD0-455D-9991-D2A458F00630}|BatonSwitch.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DB07FA-C3E3-4205-9B21-F412762F8213}|..\\BatonSwitch2\\BatonSwitch2.csproj|d:\\projects\\visualstudio\\batonswitch2\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\Projects\\VisualStudio\\BatonSwitch\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "D:\\Projects\\VisualStudio\\BatonSwitch\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AgIAABACAAAAAAAAAAAgwCgCAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:04:37.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\VisualStudio\\FakeRuntimeBroker\\Program.cs",
+              "RelativeDocumentMoniker": "..\\FakeRuntimeBroker\\Program.cs",
+              "ToolTip": "D:\\Projects\\VisualStudio\\FakeRuntimeBroker\\Program.cs",
+              "RelativeToolTip": "..\\FakeRuntimeBroker\\Program.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAwGAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T07:49:02.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\Projects\\VisualStudio\\BatonSwitch2\\main.cs",
+              "RelativeDocumentMoniker": "..\\BatonSwitch2\\main.cs",
+              "ToolTip": "D:\\Projects\\VisualStudio\\BatonSwitch2\\main.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "..\\BatonSwitch2\\main.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T21:17:33.481Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BatonSwitch",
+              "DocumentMoniker": "D:\\Projects\\VisualStudio\\BatonSwitch\\BatonSwitch.csproj",
+              "RelativeDocumentMoniker": "BatonSwitch.csproj",
+              "ToolTip": "D:\\Projects\\VisualStudio\\BatonSwitch\\BatonSwitch.csproj",
+              "RelativeToolTip": "BatonSwitch.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-16T07:54:30.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BatonSwitch2",
+              "DocumentMoniker": "D:\\Projects\\VisualStudio\\BatonSwitch2\\BatonSwitch2.csproj",
+              "RelativeDocumentMoniker": "..\\BatonSwitch2\\BatonSwitch2.csproj",
+              "ToolTip": "D:\\Projects\\VisualStudio\\BatonSwitch2\\BatonSwitch2.csproj",
+              "RelativeToolTip": "..\\BatonSwitch2\\BatonSwitch2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-15T19:06:52.252Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
