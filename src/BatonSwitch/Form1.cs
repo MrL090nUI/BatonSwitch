@@ -117,7 +117,7 @@ namespace BatonSwitch
             try
             {
                 bool run = false;
-                string[] whitelistarray = { "Windows 10 Pro", "Windows 10 Home", "Windows 10 Enterprise", "Windows 10 S" };
+                string[] whitelistarray = { "Windows 10" };
                 string whitelist = "";
                 RegistryKey LocalMachine = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry32);
                 RegistryKey Product = LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion");
@@ -125,7 +125,7 @@ namespace BatonSwitch
                 foreach (var winname in whitelistarray)
                 {
                     whitelist += "\r\n" + winname;
-                    if (winname == Productname)
+                    if (Productname.ToLower().Contains(winname.ToLower()))
                     {
                         run = true;
                     }

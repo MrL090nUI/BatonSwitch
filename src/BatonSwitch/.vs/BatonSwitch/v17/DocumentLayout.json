@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Projects\\VisualStudio\\BatonSwitch\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBF9604C-3AD0-455D-9991-D2A458F00630}|BatonSwitch.csproj|d:\\projects\\visualstudio\\batonswitch\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBF9604C-3AD0-455D-9991-D2A458F00630}|BatonSwitch.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BBF9604C-3AD0-455D-9991-D2A458F00630}|BatonSwitch.csproj|D:\\Projects\\VisualStudio\\BatonSwitch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBF9604C-3AD0-455D-9991-D2A458F00630}|BatonSwitch.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF9604C-3AD0-455D-9991-D2A458F00630}|BatonSwitch.csproj|d:\\projects\\visualstudio\\batonswitch\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF9604C-3AD0-455D-9991-D2A458F00630}|BatonSwitch.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BBF9604C-3AD0-455D-9991-D2A458F00630}|BatonSwitch.csproj|D:\\Projects\\VisualStudio\\BatonSwitch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -34,19 +34,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Projects\\VisualStudio\\BatonSwitch\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\Projects\\VisualStudio\\BatonSwitch\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAqwC0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAH8AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T08:58:27.582Z"
+              "WhenOpened": "2025-01-21T08:58:27.582Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,17 +58,18 @@
               "ToolTip": "D:\\Projects\\VisualStudio\\BatonSwitch\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T20:46:39.966Z"
+              "WhenOpened": "2025-01-20T20:46:39.966Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form2.cs",
               "DocumentMoniker": "D:\\Projects\\VisualStudio\\BatonSwitch\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "D:\\Projects\\VisualStudio\\BatonSwitch\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAAOQBAAAAAAAAAAAAAPcBAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAAUCAAAAAAAAAAAAAPcBAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T08:04:37.532Z",
               "EditorCaption": ""
